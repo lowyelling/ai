@@ -1,5 +1,11 @@
 # @ai-sdk/amazon-bedrock
 
+## 4.0.101
+
+### Patch Changes
+
+- 4ce87a5: fix(provider/amazon-bedrock): mark `input` optional on tool-use schema so streaming `contentBlockStart` events parse under Zod >= 4.4.0
+
 ## 4.0.100
 
 ### Patch Changes
